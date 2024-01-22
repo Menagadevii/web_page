@@ -1,0 +1,71 @@
+/* body{
+    background-image: url('C:\Users\SightSpectrum\Documents\vs code\image/colors.webp');  
+    background-image: url('C:\Users\SightSpectrum\Documents\vs code\image\design.webp'); 
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;   
+} */
+
+
+h2{
+    text-align: center;
+    color: black;
+}
+.main{
+    background-image: url('C:\Users\SightSpectrum\Documents\vs code\image\design.webp');
+    background-size: cover;
+    padding: 50px;
+}
+.SignUp- form{
+    max-width: 450px;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    /* background-image: url('C:\Users\SightSpectrum\Documents\vs code\image/dora.jpg'); */
+    background-color:pink(0,0,0,0.8);
+    box-sizing: margin-box;
+    padding: 40px;
+    color:white;
+    /* margin-top: 100px; */
+}
+
+input[type=text],input[type=password]{
+    width:100%;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    background-color: rgba(0,0,0,0.10); 
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    color:black;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+
+}
+
+input[type=submit]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background-color: blueviolet;
+    opacity: 0.3;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+input[type=submit]:hover{
+    opacity: 1;
+}
+
+span{
+    color: red;
+    font-size: 14px;
+}

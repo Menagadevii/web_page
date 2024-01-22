@@ -1,0 +1,33 @@
+.style1{
+    background-image: url("C:\Users\SightSpectrum\Documents\vs code\image/see.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.style{
+/* background-image: url("C:\Users\SightSpectrum\Pictures\Saved Pictures/nature.jpg");   */
+background-image: url("C:\Users\SightSpectrum\Documents\vs code\image/see.jpg");
+
+background-repeat:no-repeat ;
+background-size: cover;
+}
+
+
+
+/* .home{
+     text-align: center;
+    color: purple; 
+    background-image: url("C:\Users\SightSpectrum\Documents\vs code\image/tree.jpg");
+    width: 1500px;
+    height: 700px; 
+    } */
+
+    /* .navbar{
+        display:flex;
+        justify-content: space-around;
+        align-items:center;
+        height: 75px;
+        color:white;
+        background-color: brown;
+    } */

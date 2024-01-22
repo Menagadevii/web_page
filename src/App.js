@@ -1,25 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import React from 'react';
+// import './App.css';
+import '../src/Components/Formik.css';
+import SignUp from './Components/SignUp';
+// import Formik from './Components/Formik';
+// import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LoginPage from './Components/Loginpage';
+import Home from './Components/Home';
+import { About } from './Components/About';
+import { Contact } from './Components/Contact';
+import Blogs from './Components/Blogs';
+import { Homee } from './Components/Homee';
+import Navbar from './Components/Navbar';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <div>
+    {/* <SingUp/> */}
+    {/* <Formik/> */}
+    <Webpage/>
+    {/* <Navbar/> */}
+  </div>
+  )
+}
+
+// export function Navbar(){
+//   return(
+//     <>
+//     <div className='big-indigo-600 w-full h-screen'></div>
+//     </>
+//   )
+// }
+
+export function Webpage(){
+  return(
+    <div className='pages'>
+      {/* <LoginPage/>  */}
+<BrowserRouter>
+<Navbar />
+       <Routes>
+        <Route path="/" element={<LoginPage />} />
+        <Route path='/Home/:dates' element={<Home />} />  
+          <Route path='/SignUp/' element={<SignUp/>}></Route>
+          <Route path='/Homee/' element={<Homee/>} />
+          <Route path='/about/' element={<About/>} />
+          <Route path='/blogs/' element={<Blogs/>} />
+          <Route path='/contact/' element={<Contact/>} />
+         {/* <Route path="*" element={<NoPage />} />  */}
+        </Routes>
+       </BrowserRouter> 
+      </div>
+  )
 }
 
 export default App;
