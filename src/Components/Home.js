@@ -17,9 +17,9 @@ setUsername(data.dates)
 },[data.dates])
 
 return(
-<div>
-  {/* <Navbar/> */}
-    <h2 style={{color:"white"}}>Welcome {name}</h2>
+<div className="body">
+  <Navbar/>
+  <h2 style={{color:"white"}}>Welcome {name}</h2>
     
 </div>
 )

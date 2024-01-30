@@ -9,7 +9,7 @@
 
 h2{
     text-align: center;
-    color: black;
+    color:black;
 }
 .main{
     background-image: url('C:\Users\SightSpectrum\Documents\vs code\image\design.webp');
@@ -42,6 +42,7 @@ input[type=text],input[type=password]{
     border-radius: 5px;
     margin: 5px;
     font-weight: bold;
+    font-size: 15px;
 
 }
 

@@ -3,8 +3,8 @@ import Navbar from './Navbar';
 
 function Blogs() {
   return (
-    <div>
-      {/* <Navbar/> */}
+    <div className="body">
+      <Navbar/>
       <h1>Blog</h1>
       <p>
       1. Love and Lemons

@@ -3,13 +3,14 @@
     padding: 0;
 }
 
-body{
+.body{
      /* background-color:palevioletred */
      /* background-image: url('C:\Users\SightSpectrum\Documents\vs code\image\food.jpg'); */
      /* background-image: url('C:\Users\SightSpectrum\Documents\vs code\image/food1.webp'); */
      background-image: url('C:\Users\SightSpectrum\Documents\vs code\image\Eat.jpg');
      background-repeat: no-repeat;
      background-size: cover;
+     height: 100vh;
 }
 
 .pages{

@@ -3,8 +3,8 @@ import Navbar from "./Navbar";
 
 export const About =() =>{
     return(
-        <div>
-            {/* <Navbar/> */}
+        <div className="body">
+            <Navbar/>
             <h1>
                 About
             </h1>
