@@ -12,13 +12,16 @@ import { Contact } from './Components/Contact';
 import Blogs from './Components/Blogs';
 import { Homee } from './Components/Homee';
 import Imageupload from './Components/Imageupload';
+import Calculator from './Calculator';
+
 
 
 
 function App() {
   return (
   <div>
-    <Imageupload/>
+    <Calculator/>
+    {/* <Imageupload/> */}
     {/* <SignUp/>  */}
     {/* <Formik/>  */}
     {/* <Webpage/> */}
